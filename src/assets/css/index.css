@@ -1,0 +1,140 @@
+#root {
+    height: 100%;
+}
+
+.login {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    background: #f3f3f3;
+}
+
+.login .login-form {
+    width: 320px;
+    height: 340px;
+    padding: 36px;
+    -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+.login .login-form .login-logo {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.login .login-form .login-logo span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.gutter-box {
+    padding: 8px 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.mr-m {
+    margin-right: 1rem !important;
+}
+
+.clear {
+    display: block;
+    overflow: hidden;
+}
+
+.small {
+    opacity: .6;
+}
+
+.text-muted {
+    opacity: .6;
+}
+
+.clear {
+    display: block;
+    overflow: hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.y-center {
+    display: flex;
+    align-items: center;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.none {
+    display: none;
+}
+
+.b-white {
+    border-color: #ffffff;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-v {
+    height: 100vh;
+}
+
+.h-v-5 {
+    height: 50vh;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.w-40 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.rdw-editor {
+    height: 320px !important;
+    border: 1px solid #F1F1F1 !important;
+    padding: 5px !important;
+    border-radius: 2px !important;
+}
+
+.rdw-wrpeapr * {
+    /*box-sizing: content-box;*/
+}
+
+.public-DraftStyleDefault-block {
+    margin: 0.2em 0 !important;
+    line-height: 20px !important;
+}

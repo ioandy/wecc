@@ -1,0 +1,199 @@
+.app {
+    height: calc(100vh - 10px);
+    /*min-height: 720px !important;*/
+}
+
+.app .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.app .trigger:hover {
+    color: #1890ff;
+}
+
+.app .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, .2);
+    margin: 16px;
+}
+
+.app .ant-layout-content {
+    margin: 16px 16px 10px 16px !important;
+    padding: 24px !important;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/*wangEditor 编辑器高度调整*/
+.app .w-e-text-container {
+    width: 100% !important;
+    height: 48vmin !important; /*!important是重点，因为原div是行内样式设置的高度300px*/
+}
+
+/* 全局消息框 */
+.ant-message {
+    z-index: 1000010;
+}
+
+.ant-modal-wrap {
+    z-index: 100000 !important;
+}
+
+.ant-divider {
+    margin: 12px 0 !important;
+}
+
+.ant-card {
+    background: #F0F2F5 !important;
+}
+
+.ant-card-body {
+    padding: 16px !important;
+}
+
+.ant-select-dropdown, .ant-calendar-picker-container {
+    z-index: 1000000 !important;
+}
+
+.ant-select-selection__choice {
+    height: 18px !important;
+    line-height: 16px !important;
+    font-size: 13px !important;
+}
+
+.login {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    background: #f3f3f3;
+}
+
+.login .login-form {
+    width: 320px;
+    height: 340px;
+    padding: 36px;
+    -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+.login .login-form .login-logo {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.login .login-form .login-logo span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    line-height: 1;
+    border-radius: 500px;
+    white-space: nowrap;
+    font-weight: bold;
+
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar i.on {
+    background-color: #6cc788;
+}
+
+.avatar i.bottom {
+    left: auto;
+    top: auto;
+    bottom: 0;
+    right: 0;
+}
+
+.avatar i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.b-white {
+    border-color: #ffffff;
+}
+
+.custom-theme {
+    background: rgb(255, 255, 255);
+    padding: 0px;
+    height: 65px;
+}
+
+.mr-m {
+    margin-right: 1rem !important;
+}
+
+.pull-left {
+    float: left;
+}
+
+.text-2x {
+    font-size: 2rem;
+}
+
+.text-danger, .text-danger-hover a:hover {
+    color: #f44455 !important;
+}
+
+.text-info, .text-info-hover a:hover {
+    color: #6887ff !important;
+}
+
+.text-success, .text-success-hover a:hover {
+    color: #6cc788 !important;
+}
+
+.text-muted {
+    opacity: .6;
+}
+
+.gutter-box {
+    margin: 0 !important;
+}
+
+.y-center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.clear {
+    display: block;
+    overflow: hidden;
+}
+
+/*覆盖文件上传后item的样式*/
+.ant-upload-list-item {
+    margin: 0 !important;
+}
